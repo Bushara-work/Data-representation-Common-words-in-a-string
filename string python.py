@@ -32,7 +32,7 @@ if set_or_list == 'dictionary':
         res[word] = count
         total_words += count
     unique_words_count = len(set)
-    print("There are " + str(unique_words_count) + " words")
+    print("There are " + str(unique_words_count) + "unique words")
     
     Keymax = max(res.values())
     Keymin = min(res.values())
